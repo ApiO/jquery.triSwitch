@@ -10,11 +10,11 @@ A simple checkbox with three states made with love.
 
 [Live demo](http://acuisinier.com)
   
-**Browser compatibility**
+**Minimal browser compatibility**
 
 | Web browser | Version |
 | --- | ---:|
-| Chrome | incoming |
+| Chrome |  Ok |
 | Firefox | v3.5 |
 | IE | v9 |
 | Opera | v10 |
