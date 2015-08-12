@@ -36,30 +36,35 @@ jQuery v1.11.3
 
 **Usage**
 
-> <input type="checkbox" id="my_checkbox" />
-> 
-> <script>
->     $(function() {
-> 
->         // Initialize the plugin
->         $("#my_checkbox").triSwitch();
-> 
->     });
-> </script>
-	
+...
+ <input type="checkbox" id="my_checkbox" />
+ 
+<script>
+    $(function() {
+
+        // Initialize the plugin
+        $("#my_checkbox").triSwitch();
+
+    });
+</script>
+...
+ 
 Using options :
 	
-> $("#my_checkbox").triSwitch({ 
->     loop: false, 
->     defaultValue:  1 
-> });
+...
+$("#my_checkbox").triSwitch({ 
+    loop: false, 
+    defaultValue:  1 
+});
+...
 	
 To be notify on checkbox change:
-	
-> $("#my_checkbox").on("change", function () {
->     alert($(this).val());
-> });
-	
+
+....
+$("#my_checkbox").on("change", function () {
+    alert($(this).val());
+});
+...
 	
 	
 **Options**
