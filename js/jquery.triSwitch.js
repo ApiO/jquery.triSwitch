@@ -1,6 +1,7 @@
 ﻿/*
  * jquery.triSwitrch
  * 2015 - Adrien Cuisinier
+ * Released under the MIT license.
  * v1.0.0
  */
 
