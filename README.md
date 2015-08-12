@@ -61,7 +61,7 @@ $("#my_checkbox").on("change", function () {
 
 Name | Type | Default | Description
 --- | --- | --- | ---
-loop | boolean | true | Define the state cycle.  true: uncheck -> both -> check / false: uncheck -> check
+loop | boolean | true | Define the state cycle.  true: uncheck > both > check / false: uncheck > check
 defaultValue | number | -1 | Sets the initial state.  -1: unchecked / 0: both / 1: checked
   
 **Callback events**
