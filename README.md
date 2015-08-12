@@ -2,12 +2,13 @@
 
 A simple checkbox with three states made with love.
 
+![](http://acuisinier.com/images/jquery.triSwitch.png)
 
 ## Documentation & demo
 
 > **Tip:** Check out the *index.html* file.
 
-[Live demo](http://acuisinier.com/Projects/jquery.triSwitch/Demo)
+[Live demo](http://acuisinier.com)
   
 **Requirements**
 
