@@ -5,12 +5,22 @@ A simple checkbox with three states made with love.
 
 ## Documentation & demo
 
-> **Tip:** Check out the [ndex.html file](https://github.com/ApiO/jquery.triSwitch/blob/master/index.html)
+> **Tip:** Check out the index.html file
 
 
+**Requirements**
+
+Web browser | Version
+-------- | ---
+**Chrome** | incoming.
+**Firefox** | incoming.
+**IE** | incoming.
+**Opera** | incoming.
 
 **Features**
-
+- Override jQuery val() to get/set the current value.
+- Trigger "change" event.
+- Allow you to define your own awesome style.
 
 **Usage**
 
@@ -24,6 +34,6 @@ A simple checkbox with three states made with love.
 **Methods**
 
 
-**License**
+## License
 
 Released under the [MIT license](http://www.opensource.org/licenses/MIT).
