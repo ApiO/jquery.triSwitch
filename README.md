@@ -10,7 +10,7 @@ A simple checkbox with three states made with love.
 
 [Live demo](http://acuisinier.com)
   
-**Requirements**
+**Browser compatibility**
 
 | Web browser | Version |
 | --- | ---:|
