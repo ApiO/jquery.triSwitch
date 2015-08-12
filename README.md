@@ -16,10 +16,15 @@ A simple checkbox with three states made with love.
 Web browser | Version
 -------- | ---
 Chrome | incoming
-Firefox | incoming
-IE | incoming
-Opera | incoming
+Firefox | v3.5
+IE | v9
+Opera | v10
+Safari | v4
 
+
+**Dependencies**
+
+jQuery v1.11.3
 
 
 **Features**
