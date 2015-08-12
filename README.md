@@ -15,14 +15,15 @@ A simple checkbox with three states made with love.
 
 Web browser | Version
 -------- | ---
-**Chrome** | incoming
-**Firefox** | incoming
-**IE** | incoming
-**Opera** | incoming
+Chrome | incoming
+Firefox | incoming
+IE | incoming
+Opera | incoming
 
 
 
 **Features**
+
 - Override jQuery val() to get/set the current value.
 - Trigger "change" event.
 - Allow you to define your own awesome style.
@@ -43,7 +44,10 @@ Web browser | Version
 	
 Using options :
 	
-> $("#my_checkbox").triSwitch({ loop: false, defaultValue:  1 });
+> $("#my_checkbox").triSwitch({ 
+>     loop: false, 
+>     defaultValue:  1 
+> });
 	
 To be notify on checkbox change:
 	
@@ -55,15 +59,18 @@ To be notify on checkbox change:
 	
 **Options**
 
+Name | Type | Default | Description
+--- | --- | --- | ---
+loop | boolean | true | Define the state cycle, true: uncheck -> both -> check; false: uncheck -> check
+defaultValue | number | -1 | Sets the initial state. -1: unchecked, 0: both, 1: checked
 
 
 
 **Callback events**
 
-
-
-
-**Methods**
+Event | Description
+--- | ---
+change | Trigerred each tiem the user click on a checkbox
 
 
 
