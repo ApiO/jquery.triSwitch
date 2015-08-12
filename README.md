@@ -6,16 +6,16 @@ A simple checkbox with three states made with love.
 ## Documentation & demo
 
 > **Tip:** Check out the *index.html* file.
-
+[Live demo](http://acuisinier.com/Projects/jquery.triSwitch/Demo)
 
 **Requirements**
 
 Web browser | Version
 -------- | ---
-**Chrome** | incoming.
-**Firefox** | incoming.
-**IE** | incoming.
-**Opera** | incoming.
+**Chrome** | incoming
+**Firefox** | incoming
+**IE** | incoming
+**Opera** | incoming
 
 
 **Features**
@@ -27,7 +27,7 @@ Web browser | Version
 **Usage**
 
 	<input type="checkbox" id="my_checkbox" />
-	...
+	
 	<script>
 		$(function() {
 
@@ -36,7 +36,16 @@ Web browser | Version
 
 		});
 	</script>
-	...
+	
+	Using options :
+	
+	$('#my_checkbox').triSwitch({ loop: false, defaultValue:  1 });
+	
+	To be notify on checkbox change:
+	
+	$("#my_checkbox").on("change", function () {
+		alert($(this).val());
+	});
 	
 **Options**
 
