@@ -7,12 +7,22 @@ A simple checkbox with three states made with love.
 
 > **Tip:** Check out the [<i class="icon-file"></i> index.html file](#publish-a-document)
 
+----------
 
 ### Features
+--------------------
+
 ### Usage
+--------------------
+
 ### Options
+--------------------
+
 ### Callback events
+--------------------
+
 ### Methods
+--------------------
 
 ## License
 
