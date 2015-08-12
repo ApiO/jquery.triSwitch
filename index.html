@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<link href="css/jquery.triSwitch.css" rel="stylesheet">
+	<script src="lib/js/jquery-2.1.4.js"></script>
+    <style type="text/css">
+		body { padding: 16px; }
+		table{ margin-left:24px; 	}		
+        td { padding: 0 10px 10px 0; }
+    </style>
+</head>
+<body>
+
+	<h2>States style</h2>
+	<table>
+		<tbody>
+			<tr>
+				<td>
+					<div class="ts ts-ok">
+						<i></i>
+					</div>
+				</td>
+				<td>
+					<div class="ts ts-both">
+						<i></i>
+					</div>
+				</td>
+				<td>
+					<div class="ts ts-ko">
+						<i></i>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<h2>Initializations</h2>
+	<table>
+		<tbody>
+			<tr>
+				<td>default</td>
+				<td><input type="checkbox" id="ts-default" /></td>
+			</tr>
+			<tr>
+				<td>loop</td>
+				<td><input type="checkbox" id="ts-loop" /></td>
+			</tr>
+			<tr>
+				<td>noloop</td>
+				<td><input type="checkbox" id="ts-noloop" /></td>
+			</tr>
+			<tr>
+				<td>disabled</td>
+				<td><input type="checkbox" id="ts-disabled" disabled="disabled" /></td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<h2>Array initialization</h2>
+	<table>
+		<tbody>
+			<tr>
+				<td>#0</td>
+				<td><input type="checkbox" id="ts-0" name="test" /></td>
+			</tr>
+			<tr>
+				<td>#1</td>
+				<td><input type="checkbox" id="ts-1" name="test" /></td>
+			</tr>
+			<tr>
+				<td>#2</td>
+				<td><input type="checkbox" id="ts-2" name="test" /></td>
+			</tr>
+			<tr>
+				<td>#3</td>
+				<td><input type="checkbox" id="ts-3" name="test"></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<input type="button" value="Initialize" id="bt-init" />
+
+	<script src="js/jquery.triSwitch.js"></script>
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+
+            $("#ts-default")
+                .triSwitch()
+                .on("change", function () {
+                    console.info("default: " + $(this).val(), this);
+                });
+
+            $("#ts-loop")
+                .triSwitch({ loop: true })
+                .on("change", function () {
+                    console.info("loop: " + $(this).val(), this);
+                });
+
+            $("#ts-noloop")
+                .triSwitch({ loop: false, defaultValue: 0 })
+                 .on("change", function () {
+                     console.info("noloop: " + $(this).val(), this);
+                 });
+
+            $("#ts-disabled")
+                .triSwitch({ defaultValue: -1 })
+                .on("change", function () {
+                    console.log("disabled: you will never read this.");
+                });
+
+            $("#bt-init").on("click", function () {
+                $("input[name='test']")
+                    .triSwitch({ loop: true, defaultValue: -1 })
+                    .on("change", function () {
+						var s = $(this).attr("id") + ": " + $(this).val();
+                        console.info(s, this);
+                    })
+                    .each(function () {
+						var s = "do stuff with: " + $(this).attr("id") + 
+									", value=" + $(this).val();
+                        console.info(s, this);
+                    });
+            });
+        });
+    </script>
+</body>
+</html>
