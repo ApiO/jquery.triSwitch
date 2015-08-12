@@ -13,13 +13,13 @@ A simple checkbox with three states made with love.
 
 **Requirements**
 
-Web browser | Version
--------- | ---
-Chrome | incoming
-Firefox | v3.5
-IE | v9
-Opera | v10
-Safari | v4
+| Web browser | Version |
+| --- | ---:|
+| Chrome | incoming |
+| Firefox | v3.5 |
+| IE | v9 |
+| Opera | v10 |
+| Safari | v4 |
 
 
 **Dependencies**
@@ -36,35 +36,31 @@ jQuery v1.11.3
 
 **Usage**
 
-...
- <input type="checkbox" id="my_checkbox" />
+```html
+	<input type="checkbox" id="my_checkbox" />
+ ```
  
-<script>
-    $(function() {
-
-        // Initialize the plugin
-        $("#my_checkbox").triSwitch();
-
-    });
-</script>
-...
+```javascript
+	// Initialize the plugin
+	$("#my_checkbox").triSwitch();
+```
  
 Using options :
 	
-...
+```javascript
 $("#my_checkbox").triSwitch({ 
-    loop: false, 
-    defaultValue:  1 
+	loop: false, 
+	defaultValue:  1 
 });
-...
+```
 	
 To be notify on checkbox change:
 
-....
+```javascript
 $("#my_checkbox").on("change", function () {
-    alert($(this).val());
+	alert($(this).val());
 });
-...
+```
 	
 	
 **Options**
