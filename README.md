@@ -37,26 +37,26 @@ jQuery v1.11.3
 **Usage**
 
 ```html
-	<input type="checkbox" id="my_checkbox" />
+<!-- Add a checkbox to your page -->
+<input type="checkbox" id="my_checkbox" />
  ```
  
 ```javascript
-	// Initialize the plugin
-	$("#my_checkbox").triSwitch();
+// Initialize the plugin
+$("#my_checkbox").triSwitch();
 ```
  
-Using options :
 	
 ```javascript
+// Using options
 $("#my_checkbox").triSwitch({ 
 	loop: false, 
 	defaultValue:  1 
 });
 ```
 	
-To be notify on checkbox change:
-
 ```javascript
+// Binding change event notification
 $("#my_checkbox").on("change", function () {
 	alert($(this).val());
 });
