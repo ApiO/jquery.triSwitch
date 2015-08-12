@@ -82,7 +82,7 @@
 
 	<script src="js/jquery.triSwitch.js"></script>
     <script type="text/javascript" language="javascript">
-        $(document).ready(function () {
+        $(function () {
 
             $("#ts-default")
                 .triSwitch()
@@ -113,7 +113,7 @@
                     .triSwitch({ loop: true, defaultValue: -1 })
                     .on("change", function () {
 						var s = $(this).attr("id") + ": " + $(this).val();
-                        console.info(s, this);
+						console.info(s, this);
                     })
                     .each(function () {
 						var s = "do stuff with: " + $(this).attr("id") + 

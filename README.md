@@ -5,25 +5,25 @@ A simple checkbox with three states made with love.
 
 ## Documentation & demo
 
-> **Tip:** Check out the [<i class="icon-file"></i> index.html file](#publish-a-document)
+> **Tip:** Check out the [ndex.html file](https://github.com/ApiO/jquery.triSwitch/blob/master/index.html)
 
-----------
 
-### Features
---------------------
 
-### Usage
---------------------
+**Features**
 
-### Options
---------------------
 
-### Callback events
---------------------
+**Usage**
 
-### Methods
---------------------
 
-## License
+**Options**
+
+
+**Callback events**
+
+
+**Methods**
+
+
+**License**
 
 Released under the [MIT license](http://www.opensource.org/licenses/MIT).
