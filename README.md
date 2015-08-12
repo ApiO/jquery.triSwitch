@@ -24,7 +24,7 @@ A simple checkbox with three states made with love.
 
 **Dependencies**
 
-jQuery v1.11.3
+jQuery v1.11.3 **
 
 
 **Features**
