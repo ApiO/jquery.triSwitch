@@ -12,7 +12,7 @@ A simple checkbox with three states made with love.
 **Minimal browser compatibility**
 
 Web browser|Version 
--|-
+---|---
 Chrome|Ok
 Firefox|v3.5
 IE|v9
@@ -65,14 +65,14 @@ $("#my_checkbox").attr("disabled", true);
 **Options**
 
 Name | Type | Default | Description
--|-|-|-
+---|---|---|---
 loop | boolean | true | Define the state cycle.  true: uncheck > both > check / false: uncheck > check
 defaultValue | number | -1 | Sets the initial state.  -1: unchecked / 0: both / 1: checked
   
 **Callback events**
 
 Event | Description
--|-
+---|---
 change | Triggered each time the user click on a checkbox
   
 ## License
