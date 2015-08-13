@@ -32,34 +32,37 @@ Safari|v4
 **Usage**
 
 ```html
-<!-- Add a checkbox to your page -->
-<input type="checkbox" id="my_checkbox" />
+	<!-- reference both css and js files -->
+    <link href="css/jquery.triSwitch.css" rel="stylesheet">
+    <script src="js/jquery.triSwitch.js"></script>
+
+	<!-- Add a checkbox to your page -->
+	<input type="checkbox" id="my_checkbox" />
  ```
  
 ```javascript
-// Initialize the plugin
-$("#my_checkbox").triSwitch();
-```
- 
-	
-```javascript
-// Using options
-$("#my_checkbox").triSwitch({ 
-	loop: false, 
-	defaultValue:  1 
-});
+	// Initialize the plugin
+	$("#my_checkbox").triSwitch();
 ```
 	
 ```javascript
-// Binding change event notification
-$("#my_checkbox").on("change", function () {
-	alert($(this).val());
-});
+	// Using options
+	$("#my_checkbox").triSwitch({ 
+		loop: false, 
+		defaultValue:  1 
+	});
 ```
 	
 ```javascript
-// Disable change notification with style
-$("#my_checkbox").attr("disabled", true);
+	// Binding change event notification
+	$("#my_checkbox").on("change", function () {
+		alert($(this).val());
+	});
+```
+	
+```javascript
+	// Disable change notification with style
+	$("#my_checkbox").attr("disabled", true);
 ```
   
 **Options**
