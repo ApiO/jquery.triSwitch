@@ -1,0 +1,22 @@
+{
+  "name": "jquery.triSwitch",
+  "version": "1.0.0",
+  "description": "A simple checkbox with three states made with love",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ApiO/jquery.triSwitch.git"
+  },
+  "keywords": [
+    "jquery",
+    "checkbox",
+    "triSwitch",
+    "three states",
+	"plugin"
+  ],
+  "author": "ApiO",
+  "license": "MIT"
+}

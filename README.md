@@ -57,6 +57,11 @@ $("#my_checkbox").on("change", function () {
 	alert($(this).val());
 });
 ```
+	
+```javascript
+// Disable change notification with style
+$("#my_checkbox").attr("disabled", true);
+```
   
 **Options**
 
@@ -69,7 +74,7 @@ defaultValue | number | -1 | Sets the initial state.  -1: unchecked / 0: both / 
 
 Event | Description
 --- | ---
-change | Trigerred each tiem the user click on a checkbox
+change | Triggered each time the user click on a checkbox
   
 ## License
 
