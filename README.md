@@ -6,7 +6,7 @@ A simple checkbox with three states made with love.
 
 ## Documentation & demo
 
-> For code sample check out the index.html file or go to the [live demo](http://acuisinier.com).
+> For code sample check out the index.html file or go to the [live demo](http://acuisinier.com/demo/jquery.triSwitch).
 
 
 **Minimal browser compatibility**
