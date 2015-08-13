@@ -3,82 +3,115 @@
 	<meta charset="utf-8">
 	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<link href="css/jquery.triSwitch.css" rel="stylesheet">
+	
     <style type="text/css">
-		body { padding: 16px; }
-		table{ margin-left:24px; 	}		
-        td { padding: 0 10px 10px 0; }
+        body {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+            margin: 16px;
+        }
+        #container {
+			width:210px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .help {
+            color: #008C54;
+            font-size: 1.4em;
+            margin-bottom: 36px;
+            text-align: center;
+        }
+		table { 
+			margin-left:24px; 
+		}		
+        td { 
+			padding: 0 10px 10px 0;
+		}
+		input[type='button']{
+			margin-left: 70px;
+		}
     </style>
+	
 </head>
 <body>
 
-	<h2>States style</h2>
-	<table>
-		<tbody>
-			<tr>
-				<td>
-					<div class="ts ts-ok">
-						<i></i>
-					</div>
-				</td>
-				<td>
-					<div class="ts ts-both">
-						<i></i>
-					</div>
-				</td>
-				<td>
-					<div class="ts ts-ko">
-						<i></i>
-					</div>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-	
-	<h2>Initializations</h2>
-	<table>
-		<tbody>
-			<tr>
-				<td>default</td>
-				<td><input type="checkbox" id="ts-default" /></td>
-			</tr>
-			<tr>
-				<td>loop</td>
-				<td><input type="checkbox" id="ts-loop" /></td>
-			</tr>
-			<tr>
-				<td>noloop</td>
-				<td><input type="checkbox" id="ts-noloop" /></td>
-			</tr>
-			<tr>
-				<td>disabled</td>
-				<td><input type="checkbox" id="ts-disabled" disabled="disabled" /></td>
-			</tr>
-		</tbody>
-	</table>
-	
-	<h2>Array initialization</h2>
-	<table>
-		<tbody>
-			<tr>
-				<td>#0</td>
-				<td><input type="checkbox" id="ts-0" name="test" /></td>
-			</tr>
-			<tr>
-				<td>#1</td>
-				<td><input type="checkbox" id="ts-1" name="test" /></td>
-			</tr>
-			<tr>
-				<td>#2</td>
-				<td><input type="checkbox" id="ts-2" name="test" /></td>
-			</tr>
-			<tr>
-				<td>#3</td>
-				<td><input type="checkbox" id="ts-3" name="test"></td>
-			</tr>
-		</tbody>
-	</table>
+    <div class="help">Open debug console to view change callback.</div>
+    <div id="container">
+		<h2>States style</h2>
+		<table>
+			<tbody>
+				<tr>
+					<td>
+						<div class="ts ts-ok">
+							<i></i>
+						</div>
+					</td>
+					<td>
+						<div class="ts ts-both">
+							<i></i>
+						</div>
+					</td>
+					<td>
+						<div class="ts ts-ko">
+							<i></i>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<h2>Initializations</h2>
+		<table>
+			<tbody>
+				<tr>
+					<td>default</td>
+					<td><input type="checkbox" id="ts-default" /></td>
+				</tr>
+				<tr>
+					<td>loop</td>
+					<td><input type="checkbox" id="ts-loop" /></td>
+				</tr>
+				<tr>
+					<td>noloop</td>
+					<td><input type="checkbox" id="ts-noloop" /></td>
+				</tr>
+				<tr>
+					<td>disabled</td>
+					<td><input type="checkbox" id="ts-disabled" disabled="disabled" /></td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<h2>Array initialization</h2>
+		<table>
+			<tbody>
+				<tr>
+					<td>#0</td>
+					<td><input type="checkbox" id="ts-0" name="test" /></td>
+				</tr>
+				<tr>
+					<td>#1</td>
+					<td><input type="checkbox" id="ts-1" name="test" /></td>
+				</tr>
+				<tr>
+					<td>#2</td>
+					<td><input type="checkbox" id="ts-2" name="test" /></td>
+				</tr>
+				<tr>
+					<td>#3</td>
+					<td><input type="checkbox" id="ts-3" name="test"></td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<input type="button" value="Initialize" id="bt-init" />
+    </div>
 
-	<input type="button" value="Initialize" id="bt-init" />
 
 	<script src="js/jquery.triSwitch.js"></script>
     <script type="text/javascript" language="javascript">
