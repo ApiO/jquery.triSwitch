@@ -48,7 +48,7 @@ Safari|v4
 ```javascript
 	// Using options
 	$("#my_checkbox").triSwitch({ 
-		loop: false, 
+		type: "normal", 
 		defaultValue:  1 
 	});
 ```
@@ -69,7 +69,7 @@ Safari|v4
 
 Name | Type | Default | Description
 ---|---|---|---
-loop | boolean | true | Define the state cycle.  true: uncheck > both > check / false: uncheck > check
+type | string | normal | Define the state cycle.  "normal": uncheck > both > check / "any_thing_else": uncheck > check
 defaultValue | number | -1 | Sets the initial state.  -1: unchecked / 0: both / 1: checked
   
 **Callback events**
