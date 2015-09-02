@@ -73,11 +73,11 @@
 					<td><input type="checkbox" id="ts-default" /></td>
 				</tr>
 				<tr>
-					<td>loop</td>
+					<td>Explicit tri-state</td>
 					<td><input type="checkbox" id="ts-loop" /></td>
 				</tr>
 				<tr>
-					<td>noloop</td>
+					<td>Explicit two states</td>
 					<td><input type="checkbox" id="ts-noloop" /></td>
 				</tr>
 				<tr>
@@ -124,13 +124,13 @@
                 });
 
             $("#ts-loop")
-                .triSwitch({ loop: true })
+                .triSwitch({ type: "normal" })
                 .on("change", function () {
                     console.info("loop: " + $(this).val(), this);
                 });
 
             $("#ts-noloop")
-                .triSwitch({ loop: false, defaultValue: 0 })
+                .triSwitch({ type: "twoState", defaultValue: 0 })
                  .on("change", function () {
                      console.info("noloop: " + $(this).val(), this);
                  });
@@ -143,7 +143,7 @@
 
             $("#bt-init").on("click", function () {
                 $("input[name='test']")
-                    .triSwitch({ loop: true, defaultValue: -1 })
+                    .triSwitch({ type: "normal", defaultValue: -1 })
                     .on("change", function () {
 						var s = $(this).attr("id") + ": " + $(this).val();
 						console.info(s, this);

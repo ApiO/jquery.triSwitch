@@ -43,7 +43,14 @@
 			ts.val(cfg == undefined || cfg.defaultValue == undefined ? -1 : cfg.defaultValue);
 
 			$(cb).remove();
-
+			
+			if(cfg == undefined){
+				cfg = {};
+			}
+			if(cfg.type == undefined){
+				cfg.type = "normal";
+			}
+			
 			ts.on("click", function () {
 				if (ts.attr("disabled") === "disabled") return;
 
@@ -52,7 +59,7 @@
 					v = 1;
 				else if (ts.hasClass("ts-ok"))
 					v = -1;
-				else if (cfg == undefined || cfg.loop == undefined || cfg.loop)
+				else if (cfg.type === "normal")
 					v = 0;
 				ts.val(v);
 				ts.trigger("change");
