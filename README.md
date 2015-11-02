@@ -8,6 +8,7 @@ A simple checkbox with three states made with love.
 
 > For code sample check out the index.html file or go to the [live demo](http://acuisinier.com/demo/jquery.triSwitch).
 
+Available on NuGet Gallery : [here](https://www.nuget.org/packages/jquery.triSwitch)
 
 **Minimal browser compatibility**
 
