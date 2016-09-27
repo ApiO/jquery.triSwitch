@@ -1,0 +1,35 @@
+{
+  "name": "jquery.triSwitch",
+  "description": "A simple checkbox with three states made with love",
+  "main": [
+    "js/jquery.triSwitch.js",
+    "css/jquery.triSwitch.css"
+  ],
+  "dependencies": {
+    "jquery": "~1.11.3"
+  },
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "tri",
+    "switch",
+    "triSwitch",
+    "checkbox"
+  ],
+  "authors": [
+    "ApiO <ac_flood@hotmail.fr>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "*.md",
+    "LICENSE",
+    "index.*",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/ApiO/jquery.triSwitch"
+}
