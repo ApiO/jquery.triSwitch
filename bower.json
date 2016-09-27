@@ -1,5 +1,5 @@
 {
-  "name": "jquery.triSwitch",
+  "name": "jquery.triswitch",
   "description": "A simple checkbox with three states made with love",
   "main": [
     "js/jquery.triSwitch.js",
