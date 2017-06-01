@@ -1,5 +1,6 @@
 {
   "name": "jquery.triswitch",
+  "version": "1.0.2",
   "description": "A simple checkbox with three states made with love",
   "main": [
     "js/jquery.triSwitch.js",
