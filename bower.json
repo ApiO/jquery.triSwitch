@@ -13,8 +13,6 @@
     "globals"
   ],
   "keywords": [
-    "tri",
-    "switch",
     "triSwitch",
     "checkbox"
   ],
@@ -25,12 +23,7 @@
   "ignore": [
     "*.md",
     "LICENSE",
-    "index.*",
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "index.*"
   ],
   "homepage": "https://github.com/ApiO/jquery.triSwitch"
 }
