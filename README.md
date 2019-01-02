@@ -1,6 +1,7 @@
 # jquery.triSwitch
 
 [![NuGet](https://img.shields.io/nuget/v/jquery.triSwitch.svg)](https://www.nuget.org/packages/jquery.triSwitch) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://opensource.org/licenses/MIT)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FApiO%2Fjquery.triSwitch.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FApiO%2Fjquery.triSwitch?ref=badge_shield)
 
 A simple checkbox with three states made with love.
 
@@ -104,3 +105,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FApiO%2Fjquery.triSwitch.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FApiO%2Fjquery.triSwitch?ref=badge_large)
