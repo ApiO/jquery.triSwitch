@@ -4,6 +4,8 @@
 
 A simple checkbox with three states made with love.
 
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FApiO%2Fjquery.triSwitch.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FApiO%2Fjquery.triSwitch?ref=badge_large)
+
 ![](http://acuisinier.com/images/jquery.triSwitch.png)
 
 ## Documentation & demo
